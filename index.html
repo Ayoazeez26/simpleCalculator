@@ -15,9 +15,9 @@
         <div class="row">
             <input type="text" name="output" id="displayOutput">
             <div class="buttons">
-                <button class="calcButton" id="delete">C</button>
-                <button class="calcButton" id="clear">CE</button>
-                <button class="calcButton" id="equals" onclick="equateInputs()">=</button>
+                <button id="delete" onclick="deleteInput()">C</button>
+                <button id="clear" onclick="clearInput()">CE</button>
+                <button id="equals" onclick="equateInputs()">=</button>
                 <button class="calcButton" id="add">+</button>
                 <button class="calcButton" id="seven">7</button>
                 <button class="calcButton" id="eight">8</button>
@@ -30,7 +30,7 @@
                 <button class="calcButton" id="one">1</button>
                 <button class="calcButton" id="two">2</button>
                 <button class="calcButton" id="three">3</button>
-                <button class="calcButton" id="times">X</button>
+                <button class="calcButton" id="times">*</button>
             </div>
         </div>
     </div>
