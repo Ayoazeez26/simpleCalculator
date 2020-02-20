@@ -32,13 +32,13 @@ function displayOnClick(e) {
 
 function equateInputs(e) {
     output.value = eval(output.value);
-    if(e.target.classList.contains('operator')) {
-        next = next;
-    } else {
-        next = !next;
-    }
-    console.log(next);
-    // next = !next;
+    // if(e.target.classList.contains('operator')) {
+    //     next = next;
+    // } else {
+    //     next = !next;
+    // }
+    // console.log(next);
+    next = !next;
 }
 
 // function checkClass(e) {
